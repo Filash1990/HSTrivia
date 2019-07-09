@@ -1,0 +1,35 @@
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="loader-container">
+    <div id="loader"></div>
+  </div>
+  <div id="main">
+    <div id="logo-area">
+      <img id="logo" src="hs.png" />
+      <h1>Expansions Trivia!</h1>
+    </div>
+
+    <div id="play-area">
+      <input id="answer" type="text" value="Classic" />
+      <button id="enter">Submit</button>
+      <h2 id="announce"></h2>
+      <h2>You got so far <span id="counter">0</span>/16</h2>
+      <img
+        id="card"
+        src="http://media.services.zam.com/v1/media/byName/hs/cards/enus/GIL_586.png"
+        alt=""
+      />
+
+      <div id="answers-area">
+        <button id="show-card">Show a card</button>
+        <ul id="gotIt"></ul>
+        <h2>Correct answers in console</h2>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
